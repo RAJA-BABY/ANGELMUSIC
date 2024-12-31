@@ -179,7 +179,7 @@ async def play_commnd(
                     details, track_id = await YouTube.track(url)
                 except Exception as e:
                     print(e)
-                    return await mystic.edit_text(_["play_3"])
+                    return await mystic.edit_text(_["play_3"]) #change here
                 streamtype = "youtube"
                 img = details["thumb"]
                 cap = _["play_11"].format(
