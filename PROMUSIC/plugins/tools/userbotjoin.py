@@ -8,9 +8,9 @@ from pyrogram.errors import (
     UserNotParticipant,
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from L2RMUSIC import app
-from L2RMUSIC.misc import SUDOERS
-from L2RMUSIC.utils.database import (
+from PROMUSIC import app
+from PROMUSIC.misc import SUDOERS
+from PROMUSIC.utils.database import (
     get_assistant,
     get_lang,
     is_active_chat,
